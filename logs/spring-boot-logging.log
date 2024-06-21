@@ -1,0 +1,294 @@
+2024-06-19T10:25:26.189+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:25:26.191+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:25:27.183+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:25:27.184+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:25:27.239+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:25:27.715+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 1.828 seconds (process running for 3.629)
+2024-06-19T10:26:00.566+05:30  INFO 13336 --- [venusSchoolManagementSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:26:39.594+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:26:39.594+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:26:40.141+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:26:40.141+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:26:40.171+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:26:40.310+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.738 seconds (process running for 76.224)
+2024-06-19T10:26:45.183+05:30  INFO 13336 --- [venusSchoolManagementSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:27:14.460+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:27:14.461+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:27:14.911+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:27:14.911+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:27:14.954+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:27:15.095+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.697 seconds (process running for 111.009)
+2024-06-19T10:27:18.976+05:30  INFO 13336 --- [venusSchoolManagementSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:28:53.652+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:28:53.652+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:28:53.800+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:28:53.800+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:28:53.832+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:28:53.914+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.366 seconds (process running for 209.828)
+2024-06-19T10:28:57.565+05:30  INFO 13336 --- [venusSchoolManagementSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:29:11.695+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:11.695+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:29:11.832+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:29:11.833+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:29:11.860+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:29:11.926+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.247 seconds (process running for 227.84)
+2024-06-19T10:29:13.460+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:13.460+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:29:13.969+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:29:13.969+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:29:13.998+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:29:14.085+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.64 seconds (process running for 229.999)
+2024-06-19T10:29:21.668+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:21.668+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:29:21.809+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:29:21.809+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:29:21.845+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:29:21.952+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.302 seconds (process running for 237.866)
+2024-06-19T10:29:26.900+05:30  INFO 328 --- [venusSchoolManagementSystem] [main] usSchoolManagementSystemApplicationTests : Starting VenusSchoolManagementSystemApplicationTests using Java 17.0.7 with PID 328 (started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:26.902+05:30  INFO 328 --- [venusSchoolManagementSystem] [main] usSchoolManagementSystemApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:29:28.467+05:30  INFO 328 --- [venusSchoolManagementSystem] [main] usSchoolManagementSystemApplicationTests : Started VenusSchoolManagementSystemApplicationTests in 1.859 seconds (process running for 2.806)
+2024-06-19T10:29:37.746+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 13336 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:37.746+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:29:37.892+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:29:37.893+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:29:37.927+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:29:38.053+05:30  INFO 13336 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.323 seconds (process running for 253.967)
+2024-06-19T10:29:44.717+05:30  INFO 4632 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 4632 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:44.719+05:30  INFO 4632 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:29:45.620+05:30  INFO 4632 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:29:45.621+05:30  INFO 4632 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:29:45.697+05:30  INFO 4632 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:29:46.118+05:30  WARN 4632 --- [venusSchoolManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-19T10:29:46.136+05:30  WARN 4632 --- [venusSchoolManagementSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-06-19T10:29:46.191+05:30 ERROR 4632 --- [venusSchoolManagementSystem] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-06-19T10:29:59.310+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:29:59.313+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:30:00.224+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:30:00.224+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:30:00.283+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:30:00.725+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 1.729 seconds (process running for 2.486)
+2024-06-19T10:30:10.648+05:30  INFO 9164 --- [venusSchoolManagementSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:34:09.050+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:34:09.051+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:34:09.227+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:34:09.227+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:34:09.252+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:34:09.314+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.283 seconds (process running for 251.075)
+2024-06-19T10:34:40.448+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:34:40.448+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:34:40.586+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:34:40.586+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:34:40.614+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:34:40.717+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.286 seconds (process running for 282.478)
+2024-06-19T10:34:46.684+05:30  INFO 9164 --- [venusSchoolManagementSystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19T10:41:34.348+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:41:34.349+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:41:34.768+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-19T10:41:34.768+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19T10:41:34.799+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-19T10:41:34.928+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Started VenusSchoolManagementSystemApplication in 0.597 seconds (process running for 696.689)
+2024-06-19T10:43:01.389+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:43:01.390+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:43:01.491+05:30  WARN 9164 --- [venusSchoolManagementSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2024-06-19T10:43:01.495+05:30 ERROR 9164 --- [venusSchoolManagementSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.0.jar:3.3.0]
+	at com.venusSchoolManagementSystem.VenusSchoolManagementSystemApplication.main(VenusSchoolManagementSystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.venusSchoolManagementSystem.Configuration.SwaggerConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1e6aba8d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:750) ~[spring-beans-6.1.8.jar:6.1.8]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:749) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spring/web/plugins/Docket
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.8.jar:6.1.8]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spring.web.plugins.Docket
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 42 common frames omitted
+
+2024-06-19T10:43:27.561+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:43:27.561+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:43:27.782+05:30  WARN 9164 --- [venusSchoolManagementSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2024-06-19T10:43:27.786+05:30 ERROR 9164 --- [venusSchoolManagementSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.0.jar:3.3.0]
+	at com.venusSchoolManagementSystem.VenusSchoolManagementSystemApplication.main(VenusSchoolManagementSystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.venusSchoolManagementSystem.Configuration.SwaggerConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@22c03077]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:750) ~[spring-beans-6.1.8.jar:6.1.8]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:749) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spring/web/plugins/Docket
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.8.jar:6.1.8]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spring.web.plugins.Docket
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 42 common frames omitted
+
+2024-06-19T10:43:39.897+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : Starting VenusSchoolManagementSystemApplication using Java 17.0.7 with PID 9164 (D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem\target\classes started by Eluri Dasaradhi in D:\VenusSchoolManagementSystem\venusSchoolManagementSystem.zip_expanded\venusSchoolManagementSystem)
+2024-06-19T10:43:39.897+05:30  INFO 9164 --- [venusSchoolManagementSystem] [restartedMain] v.VenusSchoolManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-06-19T10:43:40.192+05:30  WARN 9164 --- [venusSchoolManagementSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2024-06-19T10:43:40.196+05:30 ERROR 9164 --- [venusSchoolManagementSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.0.jar:3.3.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.0.jar:3.3.0]
+	at com.venusSchoolManagementSystem.VenusSchoolManagementSystemApplication.main(VenusSchoolManagementSystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.venusSchoolManagementSystem.Configuration.SwaggerConfiguration] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@55f0aaf]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:750) ~[spring-beans-6.1.8.jar:6.1.8]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:749) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.3.0.jar:3.3.0]
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: springfox/documentation/spring/web/plugins/Docket
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.8.jar:6.1.8]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: springfox.documentation.spring.web.plugins.Docket
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.0.jar:3.3.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 42 common frames omitted
+
