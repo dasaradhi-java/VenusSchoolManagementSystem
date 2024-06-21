@@ -23,7 +23,7 @@ public class StudentController {
 	StudentService service;
 
 	
-	@GetMapping("findStudentById/{id}")
+	@GetMapping("/findStudentById/{id}")
 	public ResponseEntity<Student> getStudentById(@PathVariable long id) {
 		try {
 			Student	findStuById = service.findStuById(id);
@@ -90,7 +90,7 @@ public class StudentController {
 	         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
 	     }
 	 }
-	 @GetMapping("/api/student/{id}")
+	 @GetMapping("api/student/{id}")
 	 public ResponseEntity<Student> getStudentById(@PathVariable Long id) {
 	     Optional<Student> student = service.getStudentById(id);
 	     return student.map(ResponseEntity::ok)

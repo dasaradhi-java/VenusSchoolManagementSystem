@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" ng-app="adminApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="admin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 </head>
+<body ng-controller="AdminController">
+    <h1>Welcome <span id="adminName">{{adminName}}</span>!</h1>
+    <button ng-click="showRegisterForm()">Register Student</button>
+    <button ng-click="getAllStudents()">Get All Students</button>
+    <button ng-click="showFindStudentById()">Find Student by ID</button>
 
-<body>
-    <h1>Welcome <span id="adminName">Admin</span>!</h1>
-    <button id="registerStudentBtn">Register Student</button>
-    <button id="getAllStudentsBtn">Get All Students</button>
-
-    <div id="studentFormContainer" style="display: none;">
+    <!-- Register Student Form -->
+    <div ng-show="showStudentForm">
         <h2>Student Registration Form</h2>
-        <form id="studentForm">
+        <form ng-submit="registerStudent()">
             <label for="studentName">Student Name:</label>
-            <input type="text" id="studentName" name="studentName" required><br><br>
+            <input type="text" id="studentName" ng-model="student.studentName" required><br><br>
 
             <label for="parentMobile">Parent Mobile:</label>
-            <input type="text" id="parentMobile" name="parentMobile" required><br><br>
+            <input type="text" id="parentMobile" ng-model="student.parentMobile" required><br><br>
 
             <label for="className">Class Name:</label>
-            <input type="text" id="className" name="className" required><br><br>
+            <input type="text" id="className" ng-model="student.className" required><br><br>
 
             <button type="submit">Submit</button>
         </form>
     </div>
 
-    <div id="studentInfoContainer" style="display: none;">
+    <!-- Find Student by ID Form -->
+    <div ng-show="showFindStudentForm">
+        <h2>Find Student by ID</h2>
+        <form ng-submit="findStudentById()">
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" ng-model="studentId" required><br><br>
+            <button type="submit">Find Student</button>
+        </form>
+    </div>
+
+    <!-- Student Info Table -->
+    <div ng-show="showStudentInfo">
         <h2>Student Details</h2>
-        <button id="deleteSelectedBtn" style="display: none;">Delete Selected</button>
+        <button ng-show="students.length > 0" ng-click="deleteSelected()">Delete Selected</button>
         <table id="studentInfoTable" border="1">
             <thead>
                 <tr>
@@ -40,181 +52,20 @@
                     <th>Roll Number</th>
                     <th>Parent Mobile</th>
                     <th>Class Name</th>
-                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                <!-- Table rows will be dynamically added here -->
+                <tr ng-repeat="student in students">
+                    <td><input type="checkbox" ng-model="student.selected"></td>
+                    <td>{{student.studentName}}</td>
+                    <td>{{student.rollNumber}}</td>
+                    <td>{{student.parentMobile}}</td>
+                    <td>{{student.className}}</td>
+                </tr>
             </tbody>
         </table>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            fetch('http://localhost:8080/api/user')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Failed to fetch user details');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    document.getElementById('adminName').textContent = data.username;
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    document.getElementById('adminName').textContent = 'Admin';
-                });
-
-            // Event listener for Register Student button
-            document.getElementById('registerStudentBtn').addEventListener('click', function () {
-                document.getElementById('studentFormContainer').style.display = 'block';
-                document.getElementById('studentInfoContainer').style.display = 'none';
-                document.getElementById('registerStudentBtn').style.display = 'none'; // Hide the button
-            });
-
-            // Event listener for student registration form submission
-            document.getElementById('studentForm').addEventListener('submit', function (event) {
-                event.preventDefault();
-
-                const formData = {
-                    studentName: document.getElementById('studentName').value,
-                    parentMobile: document.getElementById('parentMobile').value,
-                    className: document.getElementById('className').value,
-                };
-
-                fetch('http://localhost:8080/api/studentregister', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(formData)
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    // Display the saved student record in the table
-                    displayStudentRecord(data);
-
-                    document.getElementById('studentFormContainer').style.display = 'none';
-                    document.getElementById('studentInfoContainer').style.display = 'block';
-                    document.getElementById('registerStudentBtn').style.display = 'block'; // Show the Register Student button
-
-                    alert('Student registered successfully!');
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    alert('Failed to register student');
-                });
-            });
-
-            // Event listener for Get All Students button
-            document.getElementById('getAllStudentsBtn').addEventListener('click', function () {
-                fetch('http://localhost:8080/GetAllStudents')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Failed to fetch student details');
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        // Clear existing table rows
-                        const tbody = document.querySelector('#studentInfoTable tbody');
-                        tbody.innerHTML = '';
-
-                        // Iterate through each student record and append to the table
-                        data.forEach(student => {
-                            displayStudentRecord(student);
-                        });
-
-                        // Show the student info container
-                        document.getElementById('studentInfoContainer').style.display = 'block';
-                        document.getElementById('studentFormContainer').style.display = 'none';
-                        document.getElementById('registerStudentBtn').style.display = 'block'; // Show the Register Student button
-                        document.getElementById('deleteSelectedBtn').style.display = 'block'; // Show the Delete Selected button
-
-                        alert('Fetched all students successfully!');
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        alert('Failed to fetch student details');
-                    });
-            });
-
-            // Event listener for Delete Selected button
-            document.getElementById('deleteSelectedBtn').addEventListener('click', function () {
-                const checkboxes = document.querySelectorAll('.recordCheckbox');
-                const selectedRollNumbers = [];
-
-                checkboxes.forEach(checkbox => {
-                    if (checkbox.checked) {
-                        const row = checkbox.closest('tr');
-                        const rollNumber = row.querySelector('td:nth-child(3)').textContent; // Assuming roll number is in the third column
-                        selectedRollNumbers.push(rollNumber);
-                    }
-                });
-
-                if (selectedRollNumbers.length === 0) {
-                    alert('Please select at least one record to delete.');
-                    return;
-                }
-
-                const confirmation = confirm(`Are you sure you want to delete ${selectedRollNumbers.length} record(s)?`);
-                if (confirmation) {
-                    selectedRollNumbers.forEach(rollNumber => {
-                        deleteStudentRecord(rollNumber);
-                    });
-                }
-            });
-
-            // Function to display student record in table
-            function displayStudentRecord(student) {
-                const tbody = document.querySelector('#studentInfoTable tbody');
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td><input type="checkbox" class="recordCheckbox"></td>
-                    <td>${student.studentName}</td>
-                    <td>${student.rollNumber}</td>
-                    <td>${student.parentMobile}</td>
-                    <td>${student.className}</td>
-                `;
-                tbody.appendChild(row);
-            }
-
-            // Function to delete student record
-            function deleteStudentRecord(rollNumber) {
-                fetch(`http://localhost:8080/api/deleteStudent/${rollNumber}`, {
-                    method: 'DELETE'
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Failed to delete record');
-                    }
-                    return response;
-                })
-                .then(() => {
-                    // Remove selected rows from the table
-                    const checkboxes = document.querySelectorAll('.recordCheckbox');
-                    checkboxes.forEach(checkbox => {
-                        if (checkbox.checked) {
-                            const row = checkbox.closest('tr');
-                            row.remove();
-                        }
-                    });
-
-                    alert('Record(s) deleted successfully!');
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    alert('Failed to delete record');
-                });
-            }
-        });
-    </script>
+    <script src="app.js"></script>
 </body>
-
 </html>
