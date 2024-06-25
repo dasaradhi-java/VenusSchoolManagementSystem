@@ -44,6 +44,11 @@ public class StudentServiceImpl implements StudentService {
 	public List<Student> findStuByClassName(String className) {
 		return repository.findStuByClassName(className);
 	}
+	
+	@Override
+	public Student findStuByRollNo(Long rollNumber) {
+		return repository.findStudentByRollNumber(rollNumber);
+	}
 
 	public Optional<Student> getStudentById(Long id) {
 		return repository.findById(id);
@@ -61,6 +66,13 @@ public class StudentServiceImpl implements StudentService {
 
 	public void deleteStudent(Long id) {
 		repository.deleteById(id);
+	}
+
+	@Override
+	public Optional<Student> findByRollNumber(Long rollNumber) {
+		// TODO Auto-generated method stub
+		return repository.findByRollNumber(rollNumber);
+
 	}
 
 }

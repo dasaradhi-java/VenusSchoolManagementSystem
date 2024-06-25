@@ -1,6 +1,7 @@
 package com.venusSchoolManagementSystem.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -18,7 +19,10 @@ public interface StudentRepository  extends JpaRepository<Student, Long>{
 	    Long findTopByOrderByRollNumberDesc();
 	    @Query("SELECT s FROM Student s WHERE s.className = :className")
 	    List<Student> findStuByClassName(@Param("className") String className);
-	   
+	    @Query("select s from Student s WHERE s.rollNumber=:rollNumber")
+	    Student findStudentByRollNumber(Long rollNumber);
+	    @Query("select s from Student s WHERE s.rollNumber=:rollNumber")
+	   Optional<Student> findByRollNumber(Long rollNumber);
 
 	
 

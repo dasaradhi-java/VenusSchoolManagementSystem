@@ -18,4 +18,6 @@ public interface StudentService {
 	Optional<Student>  getStudentById(@PathVariable Long id);
 	 Student updateStudent(@PathVariable Long id, @RequestBody Student updatedStudent);
 	 void deleteStudent(@PathVariable Long id);
+	 public Student findStuByRollNo(Long rollNumber);
+	 Optional<Student> findByRollNumber(Long rollNumber);
 }

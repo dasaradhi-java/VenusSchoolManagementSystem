@@ -13,9 +13,9 @@
     <button ng-click="getAllStudents()">Get All Students</button>
     <button ng-click="showFindStudentById()">Find Student by ID</button>
 
-    <!-- Register Student Form -->
+    <!-- Register or Edit Student Form -->
     <div ng-show="showStudentForm">
-        <h2>Student Registration Form</h2>
+        <h2>{{ isEditing ? 'Edit Student' : 'Student Registration Form' }}</h2>
         <form ng-submit="registerStudent()">
             <label for="studentName">Student Name:</label>
             <input type="text" id="studentName" ng-model="student.studentName" required><br><br>
@@ -26,7 +26,13 @@
             <label for="className">Class Name:</label>
             <input type="text" id="className" ng-model="student.className" required><br><br>
 
-            <button type="submit">Submit</button>
+            <!-- Conditionally show the roll number field only when editing -->
+            <div ng-show="isEditing">
+                <label for="rollNumber">Roll Number:</label>
+                <input type="text" id="rollNumber" ng-model="student.rollNumber" readonly><br><br>
+            </div>
+
+            <button type="submit">{{ isEditing ? 'Update' : 'Submit' }}</button>
         </form>
     </div>
 
@@ -34,8 +40,8 @@
     <div ng-show="showFindStudentForm">
         <h2>Find Student by ID</h2>
         <form ng-submit="findStudentById()">
-            <label for="studentId">Student ID:</label>
-            <input type="text" id="studentId" ng-model="studentId" required><br><br>
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" ng-model="rollNumber" required><br><br>
             <button type="submit">Find Student</button>
         </form>
     </div>
@@ -52,6 +58,7 @@
                     <th>Roll Number</th>
                     <th>Parent Mobile</th>
                     <th>Class Name</th>
+                    <th>Actions</th> <!-- New Actions column -->
                 </tr>
             </thead>
             <tbody>
@@ -61,6 +68,9 @@
                     <td>{{student.rollNumber}}</td>
                     <td>{{student.parentMobile}}</td>
                     <td>{{student.className}}</td>
+                    <td>
+                        <button ng-click="editStudent(student)">Edit</button> <!-- Edit button -->
+                    </td>
                 </tr>
             </tbody>
         </table>
