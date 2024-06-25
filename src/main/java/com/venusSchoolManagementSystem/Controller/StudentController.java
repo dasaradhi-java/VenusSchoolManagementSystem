@@ -97,5 +97,27 @@ public class StudentController {
 	                   .orElse(ResponseEntity.notFound().build());
 	 }
 
+	 @GetMapping("api/studentByRollNumber/{rollNumber}")
+	 public ResponseEntity<Student> getStudentByRollNumber(@PathVariable Long rollNumber) {
+	   Student student = service.findStuByRollNo(rollNumber);
+	     return ResponseEntity.ok(student);
+	 }
+	 @PutMapping("/updateStudent/{rollNumber}")
+	    public ResponseEntity<Student> updateStudents(@PathVariable("rollNumber") Long rollNumber, @RequestBody Student studentDetails) {
+	        Optional<Student> studentOptional = service.findByRollNumber(rollNumber);
+
+	        if (studentOptional.isPresent()) {
+	            Student student = studentOptional.get();
+	            student.setStudentName(studentDetails.getStudentName());
+	            student.setParentMobile(studentDetails.getParentMobile());
+	            student.setClassName(studentDetails.getClassName());
+
+	            // Save the updated student record
+	            Student updatedStudent = service.saveStudent(student);
+	            return ResponseEntity.ok(updatedStudent);
+	        } else {
+	            return ResponseEntity.notFound().build();
+	        }
+	    }
 
 }
