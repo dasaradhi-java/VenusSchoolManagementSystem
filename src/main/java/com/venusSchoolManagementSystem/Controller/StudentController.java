@@ -69,10 +69,10 @@ public class StudentController {
 	            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
 	        }
 	    }
-	 @DeleteMapping("/api/deleteStudent/{id}")
-	 public ResponseEntity<Void> deleteStudent(@PathVariable Long id) {
+	 @DeleteMapping("/api/deleteStudent/{rollNumber}")
+	 public ResponseEntity<Void> deleteStudent(@PathVariable Long rollNumber) {
 	     try {
-	         service.deleteStudent(id);
+	         service.deleteStudent(rollNumber);
 	         return ResponseEntity.noContent().build();
 	     } catch (Exception e) {
 	         e.printStackTrace();
@@ -113,7 +113,7 @@ public class StudentController {
 	            student.setClassName(studentDetails.getClassName());
 
 	            // Save the updated student record
-	            Student updatedStudent = service.saveStudent(student);
+	            Student updatedStudent = service.updateStudent(student);
 	            return ResponseEntity.ok(updatedStudent);
 	        } else {
 	            return ResponseEntity.notFound().build();

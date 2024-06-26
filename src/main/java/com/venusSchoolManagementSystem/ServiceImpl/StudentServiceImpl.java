@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.venusSchoolManagementSystem.Entity.Student;
 import com.venusSchoolManagementSystem.Repository.StudentRepository;
 import com.venusSchoolManagementSystem.Service.StudentService;
-
+@Transactional
 @Service
 public class StudentServiceImpl implements StudentService {
 	@Autowired
@@ -27,6 +27,13 @@ public class StudentServiceImpl implements StudentService {
 		Long maxRollNumber = getLatestRollNo();
 		Long nextRollNumber = (maxRollNumber == null) ? 1 : maxRollNumber + 1;
 		student.setRollNumber(nextRollNumber);
+		return repository.save(student);
+
+	}
+	
+	
+	public Student updateStudent(Student student) {
+		
 		return repository.save(student);
 
 	}
@@ -64,8 +71,8 @@ public class StudentServiceImpl implements StudentService {
 		}).orElseThrow(() -> new RuntimeException("Student not found"));
 	}
 
-	public void deleteStudent(Long id) {
-		repository.deleteById(id);
+	public void deleteStudent(Long rollNumber) {
+		repository.deleteByrollNumber(rollNumber);
 	}
 
 	@Override

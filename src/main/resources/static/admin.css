@@ -1,10 +1,19 @@
 /* admin.css */
+
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #444;
+    line-height: 1.6;
 }
 
 h1, h2 {
     color: #333;
+    text-align: center;
+    margin-top: 20px;
 }
 
 button {
@@ -15,6 +24,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -22,37 +32,124 @@ button:hover {
 }
 
 form {
-    margin: 20px 0;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
 label {
     display: block;
-    margin: 5px 0;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
 }
 
-input {
-    padding: 5px;
-    margin: 5px 0;
+input[type="text"], select {
+    padding: 10px;
+    margin: 5px 0 20px;
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.25);
 }
 
 table {
-    width: 100%;
+    width: 90%;
+    margin: 20px auto;
     border-collapse: collapse;
-    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
 }
 
 th, td {
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ddd;
     text-align: left;
 }
 
 th {
-    background-color: #f4f4f4;
+    background-color: #007BFF;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+tr:hover td {
+    background-color: #f1f1f1;
+}
+
+td button {
+    padding: 5px 10px;
+    font-size: 14px;
 }
 
 input[type="checkbox"] {
     margin: 0;
+}
+
+/* Form heading */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+/* Table actions column */
+td button {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+td button:hover {
+    background-color: #e0a800;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    table, th, td {
+        width: 100%;
+        display: block;
+        text-align: right;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+    }
 }

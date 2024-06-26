@@ -20,4 +20,5 @@ public interface StudentService {
 	 void deleteStudent(@PathVariable Long id);
 	 public Student findStuByRollNo(Long rollNumber);
 	 Optional<Student> findByRollNumber(Long rollNumber);
+	 public Student updateStudent(Student student) ;
 }
